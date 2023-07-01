@@ -1,3 +1,6 @@
+原理：这个思路主要是利用厂商的服务器能联通国外的镜像网址，然后把它备份到国内能访问到的镜像网址，最终让咱们实现好好使用镜像的一个目的。
+
+
 # kube-image-syncer
 ## 1、修改 .github/workflows/sync-image.yaml 文件
 将  `KubernetesVersion: 1.26.4` 中的版本号修改为想要拉取的版本，例如 ` KubernetesVersion: 1.23.8` 
